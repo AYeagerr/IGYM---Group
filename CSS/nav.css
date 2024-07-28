@@ -1,0 +1,36 @@
+/* Navbar styling */
+.navbar {
+    background-color: white !important;
+    border-bottom: 1px solid black;
+    z-index: 99000;
+}
+
+/* Navbar links style */
+.navbar-nav .nav-link {
+    color: black !important; 
+    font-weight: 450;
+    transition: color 0.3s ease !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #396AFF !important;
+    transition: color 0.3s ease !important;
+}
+
+.navbar-brand img {
+    height: 2rem;
+}
+
+/* Custom button styling */
+.custom-btn {
+    border: 1px solid #396AFF;
+    color: #396AFF;
+    padding: 0.5rem 1rem;
+    border-radius: 100px;
+    font-weight: 500;
+}
+
+.custom-btn:hover {
+    background-color: #396AFF;
+    color: white;
+}

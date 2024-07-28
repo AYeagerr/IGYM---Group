@@ -1,0 +1,113 @@
+.amira-container {
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  margin: 2rem auto;
+  padding: 2rem;
+  gap: 20px;
+}
+
+.amira-container h1 {
+  font-weight: bold;
+  color: #1C1C1C;
+  margin-bottom: 1rem;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 96px;
+}
+
+.amira-cards {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  justify-content: center;
+}
+
+.amira-card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  background-color: white;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.amira-card:hover {
+  background-color: #396aff;
+  color: white;
+}
+
+.amira-card:hover h3,
+.amira-card:hover p,
+.amira-card:hover .name,
+.amira-card:hover .stars .fa-star {
+  color: white;
+}
+
+.amira-card h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #0066ff;
+  margin-bottom: 0.5rem;
+}
+
+.amira-card p {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 1rem;
+  line-height: 1.4;
+}
+
+.amira-author {
+  display: flex;
+  align-items: center;
+}
+
+.amira-author img {
+  width: 70px;
+  height: 70px;
+  padding: 0.5rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.amira-author .name {
+  padding: 0.5rem;
+}
+
+.amira-author .name h3 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.amira-author .stars .fa-star {
+  color: #ffd700;
+  margin-right: 2px;
+}
+
+@media (max-width: 1024px) {
+  .amira-cards {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .amira-container h1 {
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+  }
+
+  .amira-card h3 {
+    font-size: 1rem;
+  }
+
+  .amira-card p {
+    font-size: 0.8rem;
+  }
+
+  .amira-author .name h3 {
+    font-size: 0.9rem;
+  }
+}

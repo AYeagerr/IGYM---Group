@@ -1,0 +1,119 @@
+footer {
+    background-color: #396aff;
+    color: white;
+    padding: 2rem;
+    margin-top: 5rem;
+}
+
+.amira-footer-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.amira-footer-section.about,
+.amira-footer-section.links,
+.amira-footer-section.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 1.25rem;
+}
+
+.amira-logo-img {
+    max-width: 150px;
+    margin-bottom: 1rem;
+}
+
+.amira-footer-section.about p {
+    margin: 1rem 0;
+    font-size: 0.9rem;
+    line-height: 1.4;
+    text-align: left;
+}
+
+.amira-socials {
+    display: flex;
+    gap: 1rem;
+}
+
+.amira-socials i {
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.amira-footer-section.links h3,
+.amira-footer-section.contact h3 {
+    margin-bottom: 1rem;
+}
+
+.amira-footer-section.links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.amira-footer-section.links ul li {
+    margin-bottom: 0.5rem;
+}
+
+.amira-footer-section.links ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+    
+}
+
+.amira-footer-section.links ul li a:hover {
+    color: #ddd;
+}
+
+.amira-footer-section.contact p {
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    text-align: left;
+}
+
+.amira-footer-section.contact p i {
+    margin-right: 0.5rem;
+}
+
+.amira-footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 1rem 0;
+    max-height: 20px;
+    text-align: center;
+}
+
+@media (max-width: 1024px) {
+    .amira-footer-content {
+        grid-template-columns: 1fr;
+        text-align: left;
+    }
+
+    .amira-footer-section.about,
+    .amira-footer-section.links,
+    .amira-footer-section.contact {
+        align-items: flex-start;
+        margin: 0;
+        padding: 1rem 0;
+    }
+
+    .amira-footer-section.about p,
+    .amira-footer-section.contact p {
+        text-align: left;
+    }
+
+    .amira-socials {
+        justify-content: center;
+    }
+
+    .amira-footer-bottom {
+        padding-top: 0.5rem;
+    }
+}

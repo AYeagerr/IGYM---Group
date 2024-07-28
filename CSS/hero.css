@@ -1,0 +1,151 @@
+/* Main container styling */
+.main-container {
+  position: relative;
+  padding: 5vh 10vw;
+  text-align: center;
+}
+
+.Gbg {
+  position: absolute;
+  top: 0;
+  left: -10%;
+  width: 50%;
+  height: auto;
+  z-index: -1;
+}
+
+.Gbg2 {
+  position: absolute;
+  top: 0;
+  right: -10%;
+  width: 50%;
+  height: auto;
+  z-index: -1;
+}
+
+/* Heading and paragraph styling */
+.main-container h4 {
+  margin-bottom: 1rem;
+  color: #396aff;
+}
+
+.main-container h1 {
+  margin-bottom: 1rem;
+  color: #170F49;
+}
+
+.main-container p {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+  color: #6F6C90;
+}
+
+/* Buttons styling */
+.main-buttons .btn {
+  margin: 0.5rem;
+  padding: 1rem 2rem;
+  border-radius: 100px;
+  font-size: 1rem;
+}
+
+/* Image container styling */
+.image-container {
+  position: relative;
+  width: 100%;
+  margin-top: 3rem;
+}
+
+.dashboard {
+  width: 85%;
+  align-items: center;
+  z-index: 2;
+  position: relative;
+}
+
+.mockup {
+  position: absolute;
+  width: 30%;
+  left: 60vw;
+  top: 2vh;
+  z-index: 3;
+}
+
+.my-balance {
+  position: absolute;
+  width: 25%;
+  top: 62%;
+  right: 75%;
+  z-index: 3;
+}
+
+.class-card {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1rem;
+  flex-wrap: wrap;
+}
+
+.logo-container img {
+  width: 12%;
+  height: auto;
+  filter: grayscale(100%);
+  transition: filter 0.3s, transform 0.3s;
+}
+
+.logo-container img:hover {
+  filter: grayscale(0%);
+  transform: scale(1.1);
+}
+
+@media (max-width: 1024px) {
+  .main-container{
+    overflow: hidden;
+  }
+  .logo-container {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .logo-container img {
+    width: 25%;
+    margin: 1rem;
+  }
+
+  .image-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .dashboard {
+    width: 70%;
+  }
+
+  .mockup {
+    width: 25%;
+    left: 71%;
+    top: 0;
+  }
+
+  .my-balance {
+    width: 20%;
+    top: 62%;
+    right: 70%;
+  }
+
+  .class-card {
+    width: 20%;
+    left: 5%;
+    top: 0;
+  }
+}

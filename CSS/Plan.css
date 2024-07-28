@@ -1,0 +1,304 @@
+.plan-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.plan-title h2 {
+  font-weight: 600;
+  color: #1c1c1c;
+  margin-bottom: 10px;
+  font-size: 64px;
+  line-height: 96px;
+  text-align: center;
+}
+
+.plan-title p {
+  color: #909090;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  text-align: center;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+  .plan-title h2 {
+    font-size: 48px;
+    line-height: 72px;
+  }
+
+  .plan-title p {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .plan-title h2 {
+    font-size: 36px;
+    line-height: 54px;
+  }
+
+  .plan-title p {
+    font-size: 18px;
+    line-height: 27px;
+  }
+}
+
+@media (max-width: 480px) {
+  .plan-title h2 {
+    font-size: 28px;
+    line-height: 42px;
+  }
+
+  .plan-title p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+
+.swiper-container {
+  display: flex;
+  justify-content: center;
+}
+
+.header-F {
+  color: rgb(24, 24, 73);
+  text-align: center;
+  font-size: 64px;
+  display: flex;
+  justify-content: center;
+}
+
+.subhead-F {
+  color: #909090;
+  text-align: center;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+}
+
+.swiper {
+  width: 85%;
+  height: 85%;
+}
+
+.swiper-slide {
+  margin-top: 2rem;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.border-F {
+  width: 90%;
+  min-height: 650px;
+  border-radius: 24px;
+  gap: 10px;
+  margin: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.basic-F,
+.standerd-F {
+  background-color: #ffffff;
+}
+
+.premium-F,
+.ultimate-F {
+  background-color: #396aff;
+}
+
+
+.frame1-F,
+.frame2-F {
+  width: 90%;
+  height: 96px;
+  margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #909090;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+}
+
+.frame1-F {
+  background-color: #ffffff;
+}
+
+.frame2-F {
+  background-color: #396aff;
+}
+
+.B1-F,
+.B2-F {
+  text-align: center;
+  font-size: 48px;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  font-weight: 600;
+}
+
+.B1-F,
+.price-F {
+  color: #396aff;
+}
+
+.B2-F,
+.premium-F .price-F,
+.ultimate-F .price-F {
+  color: #ffffff;
+}
+
+.fram1-F,
+.fram2-F {
+  width: 90%;
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.fram1-F {
+  background-color: #ffffff;
+  height: auto;
+}
+
+.fram2-F {
+  background-color: #396aff;
+  height: auto;
+}
+
+.frm1-F,
+.frm2-F {
+  width: 90%;
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+.frm1-F {
+  background-color: #ffffff;
+  height: auto;
+}
+
+.frm2-F {
+  background-color: #396aff;
+  height: auto;
+}
+
+.start-F,
+.start2-F {
+  text-align: center;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.start-F {
+  color: #909090;
+}
+
+.start2-F {
+  color: #ffffff;
+}
+
+.price-F {
+  text-align: center;
+  font-size: 64px;
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+  font-weight: 600;
+}
+
+.button-F {
+  height: 80px;
+  width: 90%;
+  border: none;
+  padding: 0.5rem;
+  text-align: center;
+  font-size: 20px;
+  margin: auto;
+  transition: 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 24px;
+  font-weight: 600;
+}
+
+.button-F:hover {
+  opacity: 0.9;
+}
+
+.But1-F {
+  background-color: #396aff;
+  color: #ffffff;
+}
+
+.But2-F {
+  background-color: #ffffff;
+  color: #396aff;
+}
+
+.basic-F .But1-F,
+.standerd-F .But1-F {
+  background-color: #396aff;
+  color: #ffffff;
+}
+
+.premium-F .But2-F,
+.ultimate-F .But2-F {
+  background-color: #ffffff;
+  color: #396aff;
+}
+
+#icon1-F,
+#icon2-F {
+  font-size: 16px;
+  margin-bottom: 2rem;
+}
+
+#icon1-F {
+  color: #396aff;
+}
+
+#icon2-F {
+  color: #ffffff;
+}
+
+.text1-F,
+.text2-F {
+  font-size: 16px;
+  margin-bottom: 2rem;
+}
+
+.text1-F {
+  color: #909090;
+}
+
+.text2-F {
+  color: #ffffff;
+}
+
+.swiper-pagination {
+  position: relative;
+  margin-top: 30px;
+}
